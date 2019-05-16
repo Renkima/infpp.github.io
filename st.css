@@ -1,0 +1,192 @@
+
+body{font-family: "Georgia";}
+
+p{text-indent:2%;}
+
+.ttxt       /* З А П А С К А */
+{
+margin: 1%; 
+border: 2%;
+}
+
+
+/* ___________________________txt нечто_)_____________________________________ */
+.bbpt{  /* *TXT* о с н о в а */
+
+opacity: 0.8;
+font-size: 16px;
+
+  background: #f0fcfc;   
+    border-size: 1%;
+border-radius: 10px;    /*    скругление              */
+
+   margin: 1%;
+    margin-top: 11%;       /*   отступ для границ              */
+  padding: 3%;      /*    отступ для объектов внутри     */
+text-decoration: none;
+}
+
+
+.sk a{
+  text-decoration: none; 
+  color:#02f0f4;
+  background: #3a3a3a;
+   margin: 1px;
+   padding: 2px;
+   border-radius: 12px;
+      border: 2px solid maroon; 
+}
+
+.warning big{color:red;
+ margin: 1px;
+   border-radius: 1px;
+   border: 1px solid red;   
+     padding:0px 5px; 
+}
+
+.goodyu big{color:green;
+ margin: 3px;
+   border-radius: 3px;
+   border: 3px solid green;   
+     padding:0px 5px; 
+}
+
+
+/*_____________________________________________________________________*/
+.codd{
+    background: #0f54bc;  
+    color: white; 
+    border-size: 1%;
+border-radius: 25px;
+
+   margin: 1%;
+  padding: 1%;      /*    отступ для объектов внутри     */
+
+
+      -moz-transition: all 0.5s 0.05s ease; /*плавный переход*/
+      -o-transition: all 0.5s 0.05s ease;
+      -webkit-transition: all 0.5s 0.05s ease;
+}
+
+.codd:hover{
+    background: #02edf9;  
+    color: black; 
+    border-size: 1%;
+border-radius: 5px;
+}
+/*_____________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________________________*/
+.b2i{
+    background: silver;  
+    color: black; 
+    border-size: 1%;
+border-radius: 15px;
+
+   margin: 1%;
+  padding: 1%;      /*    отступ для объектов внутри     */
+
+
+      -moz-transition: all 0.5s 0.05s ease; /*плавный переход*/
+      -o-transition: all 0.5s 0.05s ease;
+      -webkit-transition: all 0.5s 0.05s ease;
+}
+
+.b2i:hover{
+    background: black;  
+    color: #02edf9; 
+    border-size: 1%;
+border-radius: 5px;
+}
+/*_____________________________________________________________________*/
+
+
+.namees{font-size: 500%; text-shadow: 1px 1px 1px  #30d5c8;}
+  .namees b:hover {text-shadow: 5px 5px 3px  #30d5c8;}
+.namees i {font-size: 150%; text-shadow: 1px 5px 1px  #30d5c8;}
+
+
+
+.glmentext b {text-shadow: 2px 2px 2px  blue;}
+.glmentext b:hover {text-shadow: 3px 3px 3px blue;}
+.glmentext{  /*Т Е К С Т НА Г Л А В Н О Й*/
+    opacity: 0.8;
+background: url("i/bumagafon.png");  background-size: 200%; /* background: url("i/Help.svg");    background-size: auto; background: #f0fcfc; */
+
+color:none;
+border-radius: 10px;    /*    скругление              */
+
+  margin: 1%;
+    margin-top: 50%;       /*   отступ для границ              */
+  padding: 3%;      /*    отступ для объектов внутри     */
+font-size: 400%
+}
+
+ 
+
+.ssoc{
+background: #f0fcfc;   
+  border-color: black;    
+border-radius: 10px;    /*    скругление              */
+
+   margin: 2%;
+    margin-top: 25%;
+    margin-left: 50%;       /*   отступ для границ              */
+  padding: 1%;      /*    отступ для объектов внутри     */
+opacity: 0.5;
+}
+
+.clickme1{position:relative;}
+.clickme1 ul {
+    list-style: none; 
+  height: 50px; /*задаем высоту*/
+    border-radius: 40px; 
+}
+.clickme1 li {
+  float: left; /*Размещаем список горизонтально для реализации меню*/
+   list-style: none;    /* убирает маркеры элементов списка   */
+}
+.clickme1 a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+            color: white;
+            background:black;opacity:0.5;
+  display: block; 
+      -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+      -o-transition: all 0.3s 0.01s ease;
+      -webkit-transition: all 0.3s 0.01s ease;
+border-radius: 10px;
+}
+.clickme1 a:hover{
+  background: none;
+  color: maroon;
+       border: 3px solid maroon;
+  padding: 5px 5px; /*добавляем отступ |вертикально| и |горизонтально|*/
+
+    opacity:0.9;
+}
+.clickme1 li:hover{font-size: 100%;}
+
+
+/*_______________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*_______________________________________________________*/
+
+
+/*_______________________________________________________*/

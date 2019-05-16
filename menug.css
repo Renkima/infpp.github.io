@@ -1,0 +1,34 @@
+/* __________________________M-E-N-U__________________________ */
+#breadcrumb {margin: 0; padding: 0;} 
+#breadcrumb li { 
+        display: inline-block; /* affichage horizontal */ 
+        position: relative;
+            -webkit-transition: opacity 1s;
+            -moz-transition: opacity 1s;
+            -o-transition: opacity 1s;
+        transition: opacity 1s;
+      } 
+#breadcrumb li + li {margin-left: -8px;} 
+#breadcrumb a {     
+        display: inline-block;
+        padding: 8px 28px; 
+        margin: 0;        
+        color: #333; 
+        border: 1px solid #bbb; border-left: none;
+        text-decoration: none;  
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.5);  
+        -webkit-border-radius: 0 17px 17px 0 / 0 35px 35px 0;
+        -moz-border-radius: 0 17px 17px 0 / 0 35px 35px 0;
+        border-radius: 0 17px 17px 0 / 0 35px 35px 0;    
+        background: #ccc;        
+      } 
+#breadcrumb li:hover ~ li  {opacity: 0.5;}
+
+#breadcrumb li:hover ~ li + li  {opacity: 0.2;}
+#breadcrumb a {
+    background: -webkit-radial-gradient(-24px center, circle , transparent 30px, #ccc 32px);
+    background: -moz-radial-gradient(-24px center, circle , transparent 30px, #ccc 32px);
+    background: -o-radial-gradient(-24px center, circle , transparent 30px, #ccc 32px);
+    background: radial-gradient(-24px center, circle , transparent 30px, #ccc 32px);
+}
+#breadcrumb a:hover, #breadcrumb a:focus {color: #000;text-decoration: underline;}
